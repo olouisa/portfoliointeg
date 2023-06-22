@@ -1,0 +1,20 @@
+.modalMsg-container {
+    width: 50%;
+    height: 130px;
+    background-color: ghostwhite;
+}
+
+.closeMsg {
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    text-align: end;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.send-msg {
+    width: 100%;
+    text-align: center;
+}

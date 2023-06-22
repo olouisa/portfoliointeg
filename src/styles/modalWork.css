@@ -34,6 +34,8 @@
     border-color: transparent;
     font-size: 15px;
     font-weight: 600;
+    background-color: transparent;
+
 }
 .close:hover {
     font-size: 20px;

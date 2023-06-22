@@ -12,7 +12,7 @@ import { openModal } from '../actions';
 
 
 function Works() {
-  // const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [id, setId] = useState();
   const projects = Datas.projects;
   console.log(projects);
@@ -31,8 +31,8 @@ useEffect(()=> {
 }, [isClicked])
 
 const  handleOpenModal = () => {
-  dispatch(openModal())
-  
+  // dispatch(openModal())
+setIsOpen(!isOpen)  
 }
 const changeId = (_id) => {
   setId(_id)
@@ -47,8 +47,8 @@ const onChangeValue = () => {
  
 }
 
-const isOpened = useSelector((state)=> state.isOpened)
-  console.log(isOpened);
+// const isOpened = useSelector((state)=> state.isOpened)
+//   console.log(isOpened);
  
   const clickVal = useSelector((state)=> state.clickValue );
   console.log(clickVal, "test2")
@@ -91,7 +91,7 @@ const isOpened = useSelector((state)=> state.isOpened)
             <div className='backgroundWork'>
                         <h2 key={item} className='work-title'>{item.title}</h2>
                         {/* <Link key={item.date} className='work-github-link' to={item.gitHub} ><img className='work-github' src={require(`../assets/images/github-mark.png`)} alt='logo gitHub' /></Link> */}
-                        { isOpened && item.id===id && <ModalWork key={item.id}
+                        { isOpen && item.id===id && <ModalWork key={item.id}
           //  isOpen={isOpen} 
            onChangeValue={onChangeValue} 
            projects={item}/>}   
