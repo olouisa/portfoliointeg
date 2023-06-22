@@ -34,7 +34,8 @@ margin-bottom: 50px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    font-family: Montserrat
+    font-family: Montserrat;
+    font-size: x-large;
 
 }
 

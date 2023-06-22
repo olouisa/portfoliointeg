@@ -9,7 +9,7 @@ function Presentation() {
         </div>
         <div className='presentation-text'>
             <h2 className='presentation-title'>Présentation</h2>
-            <p className='presentation-paragraph'>Sint mollit occaecat quis elit velit qui ipsum ut excepteur ex. Anim ex do commodo reprehenderit nisi veniam culpa exercitation proident cillum in est. Do magna sit ut sunt. Excepteur excepteur mollit fugiat aliqua aliqua incididunt do tempor nisi incididunt et excepteur excepteur. Est laborum laboris et mollit laboris dolore quis deserunt officia reprehenderit cupidatat pariatur. Enim nostrud velit dolore incididunt tempor elit cillum sint mollit sit excepteur ea.</p>
+            <p className='presentation-paragraph'>Je m'appelle Louisa Ongenyi, je suis développeuse web front-end. Anciennement dirigée vers les sciences de l'éducation, je me suis reconvertie dans la programmation. J'adore créer et faire face à de nouvelles problématiques à résoudre. Je trouve le développement web incroyablement stimulant, le domaine est riche et offre constamment de nouvelles perspectives. J'ai suivi une formation d'intégrateur web chez Openclassroom, au cours de laquelle j'ai effectué une dizaine de projets professionnels.<a href='#projets' className='lien-vers-projets'> Je vous en présente quelques uns dans ce portfolio. </a>Après cette formation, mon intérêt pour le développement est confirmé! Et je compte en apprendre davantage. </p>
         </div>
       
     </div>

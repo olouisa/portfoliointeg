@@ -7,6 +7,17 @@
     font-family: Montserrat;
 
 }
+.lien-vers-projets {
+    color:black;
+    text-decoration: none;
+}
+
+.lien-vers-projets:hover {
+    /* background-color: black; */
+    /* color: white; */
+    text-decoration: underline;
+    border-radius: 5px;
+}
 
 .presentation-img {
     width: 30%;
@@ -31,6 +42,10 @@
 .presentation-paragraph, .presentation-title {
     width: 100%;
     /* padding: 10px; */
+
+    font-family: cursive;
+    line-height: 31px;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 768px) {

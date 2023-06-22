@@ -19,7 +19,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
-    
+
 }
 
 .filterButton {
@@ -30,12 +30,12 @@
     flex-wrap: wrap;
     gap: 16px;
     margin-bottom: 40px;
-   
+
 
 }
 
 .filterbutton {
-    width: 130px;
+    width: 150px;
     height: 50px;
     border-radius: 5px;
     border-color: transparent;

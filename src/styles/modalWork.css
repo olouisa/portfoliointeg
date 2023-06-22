@@ -1,5 +1,4 @@
 .modalWork-background {
-    width: 100%;
     background-color: beige;
     border-color: black;
     display: flex;
@@ -20,11 +19,12 @@
     flex-direction: column;
     align-items: center;
     width: 70%;
-    height: 80%;
     background-color:#F2F1F0;
     padding:20px;
     overflow: auto; 
-    font-family: Montserrat
+    font-family: Montserrat;
+    
+    box-shadow: inset 0 0 5px grey;
 
 
 }
@@ -37,10 +37,10 @@
     background-color: transparent;
 
 }
-.close:hover {
+/* .close:hover {
     font-size: 20px;
 
-}
+} */
 .modal-map{
     width: 100%;
 }

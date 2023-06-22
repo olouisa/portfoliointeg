@@ -5,8 +5,7 @@
     "title": "Argent Bank",
     "description": "Argent Bank est une nouvelle banque en ligne souhaitant percer dans le secteur bancaire. La mission du projet est de créer une application complète en React, avec une authentification utilisateur. Redux est utilisé pour gérer l'authentification et les modifications du profil utilisateur. La phase concernant les transactions et leurs fonctionnalités étant encore en cours de conception dans ce projet, il a également été nécessaire de proposer une façon de modéliser les routes de l'API côté backend afin que l'utilisateur puisse consulter, ou modifier des informations. Pour ce faire, dans le document Swagger, la description des routes API proposées pour les manipulations sur les transactions a été rédigée et ajoutée. Enfin, une prise en compte des principes du Green Code, par l'optimisation des images et la création de composants réutilisables, se fait lors de l'intégration",
     "domain": [
-        "React",
-        "Javascript",
+        "React/Javascript",
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/ArgentBank-website.git",
@@ -26,8 +25,7 @@
     "title": "724events",
     "description": "L'agence évènementielle 724events souhaite publier la nouvelle version de son site vitrine. Un premier développeur freelance a commencé l’intégration il y a quelques temps. Celui-ci ayant été contraint d'abandonner le projet, le site est fonctionnel, mais quelques bugs font obstacle à bon usage par les visiteurs. Il a donc fallu finaliser le travail et trouver les solutions aux bugs. De plus, un cahier de recette prévoit des scénarios permettant de vérifier que le site fonctionne correctement",
     "domain": [
-        "React",
-        "Javascript",
+        "React/Javascript",
         "Debug",
         "Tous"
     ],
@@ -67,8 +65,7 @@
     "title": "Kasa",
     "description": "Le site de Kasa a été codé il y a plus de 10 ans avec un code legacy important. La mission de ce projet était une refonte totale pour passer à une stack complète en JavaScript et React côté front-end. Le site est responsive et entièrement développé avec React à partir de maquettes.",
     "domain": [
-        "React",
-        "Javascript",
+        "React/Javascript",
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/projet-8.git",
@@ -88,8 +85,7 @@
     "title": "OhMyFood",
     "description": "Ohmyfood est une jeune startup qui voudrait s'imposer sur le marché de la restauration. Ce projet consiste à développer un site responsive en “mobile first” uniquement côté front-end, amélioré avec des animations CSS, qui répertorie les menus de restaurants gastronomiques. A partir d'une maquette, le site est développé pour mobile, tablette et desktop.",
     "domain": [
-        "HTML/5",
-        "CSS",
+        "HTML5/CSS",
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/Projet-4.git",
@@ -109,8 +105,7 @@
     "title": "Booki",
     "description": "Booki est une entreprise qui souhaite développer un site Internet permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. La mission de ce projet est d'intégrer l'interface du site en HTML CSS. A partir de maquettes, le site est responsive et entièrement développé pour desktop, tablette et mobile. ",
     "domain": [
-        "HTML/5",
-        "CSS",
+        "HTML5/CSS",
         "Tous"
     ],
     "gitHub": "",
@@ -127,10 +122,8 @@
 ],
 
 "categories" : [
-    "HTML/5",
-    "CSS",
-    "Javascript",
-    "React",
+    "HTML5/CSS",
+    "React/Javascript",
     "Optimisation",
     "Tous"
 ],
