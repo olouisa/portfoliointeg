@@ -1,0 +1,59 @@
+.projects-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+}
+
+.projects-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.filter {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+.filterButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 40px;
+   
+
+}
+
+.filterbutton {
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #EEEDE7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.filterbutton:hover {
+    background-color: #868B8E;
+    color: white;
+}
+
+
+.filterbutton:focus {
+    background-color: #868B8E;
+    color: white;
+}

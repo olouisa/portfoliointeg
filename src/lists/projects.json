@@ -1,0 +1,144 @@
+{
+    "projects" : [
+ {
+    "id" : 1,
+    "title": "Argent Bank",
+    "description": "Argent Bank est une nouvelle banque en ligne souhaitant percer dans le secteur bancaire. La mission du projet est de créer une application complète en React, avec une authentification utilisateur. Redux est utilisé pour gérer l'authentification et les modifications du profil utilisateur. La phase concernant les transactions et leurs fonctionnalités étant encore en cours de conception dans ce projet, il a également été nécessaire de proposer une façon de modéliser les routes de l'API côté backend afin que l'utilisateur puisse consulter, ou modifier des informations. Pour ce faire, dans le document Swagger, la description des routes API proposées pour les manipulations sur les transactions a été rédigée et ajoutée. Enfin, une prise en compte des principes du Green Code, par l'optimisation des images et la création de composants réutilisables, se fait lors de l'intégration",
+    "domain": [
+        "React",
+        "Javascript",
+        "Tous"
+    ],
+    "gitHub": "https://github.com/olouisa/ArgentBank-website.git",
+    "picture": "argentbankimg.png",
+    "date": "06-2023",
+    "competences": [
+        "Afficher les données du back end sur l'interface via des appels API",
+        "Configurer des routes API pour la communication client / serveur",
+        "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+
+    ]
+
+},
+
+{
+    "id" : 2,
+    "title": "724events",
+    "description": "L'agence évènementielle 724events souhaite publier la nouvelle version de son site vitrine. Un premier développeur freelance a commencé l’intégration il y a quelques temps. Celui-ci ayant été contraint d'abandonner le projet, le site est fonctionnel, mais quelques bugs font obstacle à bon usage par les visiteurs. Il a donc fallu finaliser le travail et trouver les solutions aux bugs. De plus, un cahier de recette prévoit des scénarios permettant de vérifier que le site fonctionne correctement",
+    "domain": [
+        "React",
+        "Javascript",
+        "Debug",
+        "Tous"
+    ],
+    "gitHub": "https://github.com/olouisa/Debuggez-une-application-React.JS.git",
+    "picture": "77events.png",
+    "date": "05-2023",
+    "competences": [
+        "Débugger un site web grâce aux Chrome DevTools",
+        "Rédiger un cahier de recette pour tester un site"
+        
+    ],
+    "document": "Ongenyi_Louisa_2_cahier_de_recette_032023.pdf"
+
+},
+
+{
+    "id" : 3,
+    "title": "Nina Carducci",
+    "description": "Ce projet a pour objectif l'optimisation du site de la photographe Nina Carducci. Sont compris dans la mission, le en place du référencement local en utilisant Schema.org, l'ajout les metas pour les réseaux sociaux, ainsi que les modifications liées à l’accessibilité du site.",
+    "domain": [
+        "Optimisation",
+        "Tous"
+    ],
+    "gitHub": "https://github.com/olouisa/ninacarducci.github.io.git",
+    "picture": "ninaproject.png",
+    "date": "05-2023",
+    "competences": [
+        "Optimiser la performance d'un site web"
+        
+    ],
+    "document": "Ongenyi_Louisa_2_audit_lighthouse_032023.pdf"
+
+},
+
+{
+    "id" : 4,
+    "title": "Kasa",
+    "description": "Le site de Kasa a été codé il y a plus de 10 ans avec un code legacy important. La mission de ce projet était une refonte totale pour passer à une stack complète en JavaScript et React côté front-end. Le site est responsive et entièrement développé avec React à partir de maquettes.",
+    "domain": [
+        "React",
+        "Javascript",
+        "Tous"
+    ],
+    "gitHub": "https://github.com/olouisa/projet-8.git",
+    "picture": "kasaproject.png",
+    "date": "04-2023",
+    "competences": [
+        "Développer des éléments de l'interface d'un site web grâce à des composants React",
+        "Initialiser une application avec Create React App",
+        "Configurer la navigation entre les pages de l'application avec React Router"
+        
+    ]
+
+},
+
+{
+    "id" : 5,
+    "title": "OhMyFood",
+    "description": "Ohmyfood est une jeune startup qui voudrait s'imposer sur le marché de la restauration. Ce projet consiste à développer un site responsive en “mobile first” uniquement côté front-end, amélioré avec des animations CSS, qui répertorie les menus de restaurants gastronomiques. A partir d'une maquette, le site est développé pour mobile, tablette et desktop.",
+    "domain": [
+        "HTML/5",
+        "CSS",
+        "Tous"
+    ],
+    "gitHub": "https://github.com/olouisa/Projet-4.git",
+    "picture": "ohMyFoodProject.png",
+    "date": "12-2022",
+    "competences": [
+        "Intégrer une maquette en mobile-first",
+        "Versionner son projet avec Git et Github",
+        "Mettre en œuvre des animations CSS"
+        
+    ]
+
+},
+
+{
+    "id" : 6,
+    "title": "Booki",
+    "description": "Booki est une entreprise qui souhaite développer un site Internet permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. La mission de ce projet est d'intégrer l'interface du site en HTML CSS. A partir de maquettes, le site est responsive et entièrement développé pour desktop, tablette et mobile. ",
+    "domain": [
+        "HTML/5",
+        "CSS",
+        "Tous"
+    ],
+    "gitHub": "",
+    "picture": "bookiProject.png",
+    "date": "11-2022",
+    "competences": [
+        "Implémenter une interface responsive avec HTML et CSS",
+        "Installer un environnement de développement front-end",
+        "Intégrer du contenu conformément à une maquette avec HTML et CSS"
+        
+    ]
+
+}
+],
+
+"categories" : [
+    "HTML/5",
+    "CSS",
+    "Javascript",
+    "React",
+    "Optimisation",
+    "Tous"
+],
+
+"competences" : [
+    "HTML/5",
+    "CSS",
+    "Javascript",
+    "React"
+]
+}

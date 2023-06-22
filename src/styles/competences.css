@@ -1,0 +1,40 @@
+
+.competences {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+
+.competences-title {
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat
+}
+
+.competences-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.competence-item {
+
+    align-items: center;
+    height: 70px;
+    width: 80%;
+    background: linear-gradient(180deg, rgba(134,139,142, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: Montserrat
+
+}
+

@@ -1,0 +1,53 @@
+.presentation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+
+}
+
+.presentation-img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+}
+
+.presentation-imgPhoto {
+    width: 100%;
+  
+}
+
+.presentation-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.presentation-paragraph, .presentation-title {
+    width: 100%;
+    /* padding: 10px; */
+}
+
+@media screen and (max-width: 768px) {
+    .presentation-text {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .presentation-paragraph, .presentation-title {
+        width: 90%;
+    }
+    .presentation-img {
+        width:50%;
+        padding: 0px;
+    }
+
+    .presentation-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}

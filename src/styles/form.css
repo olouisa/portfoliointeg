@@ -1,0 +1,65 @@
+.form-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    text-align: center;
+    font-family: Montserrat;
+    width: 100%;
+
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.input-wrapper1 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.contact-input {
+    width: 46%;
+    height: 20px;
+}
+
+.contact-text {
+    width: 100%;
+    height: 150px;
+}
+
+.contact-submit {
+
+    width: 100%;
+    height: 30px;
+    font-family: Montserrat
+}
+
+@media screen and (max-width: 768px) {
+    .contact-input {
+        width: 100%;
+    }
+
+}
