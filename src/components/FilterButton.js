@@ -1,16 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Datas from "../lists/projects.json";
-import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { changeFilterValue, click, getClickValue } from '../actions';
+import { useDispatch} from 'react-redux';
+import { getClickValue } from '../actions';
 
 function FilterButton() {
-  const [value, setValue] = useState("")
+  // const [value, setValue] = useState("")
   const changeValue = (item) => {
-    setValue(item)
-    // changeFilterValue(item)
+    // setValue(item)
     dispatch(getClickValue(item))
-    dispatch(click());
+    // dispatch(click());
     
   }
   console.log(Datas);
@@ -19,28 +17,8 @@ function FilterButton() {
 console.log(category);
 console.log(Datas.projects);
 const dispatch = useDispatch();
-// useEffect(() => {
-//   changeValue(value)
 
-// }, [])
-
-// const clickValue =  useSelector((state) => state.clickValue)
-// console.log(clickValue)
-
-// const filteredWorks1 = project.filter((work) => work.domain.includes("React"))
-// console.log(filteredWorks1);
-
-
-
-console.log(value);
-
-
-// const filterWorks = (item) => {
-//   const filteredWorks = project.filter((work) => work.domain.includes({item}))
-//   console.log(filterWorks);
-
-// }
-
+// console.log(value);
 
   return (
     <div className='filterButton'>
@@ -48,8 +26,8 @@ console.log(value);
       category.map((item) => {
         return <button   onClick={() => {
           changeValue(item);
-          const filteredWorks = project.filter((work) => work.domain.includes(`${item}`))
-          console.log(filteredWorks);
+          // const filteredWorks = project.filter((work) => work.domain.includes(`${item}`))
+          // console.log(filteredWorks);
           console.log("here")
         }} className='filterbutton' key={item}>{item}</button>
 

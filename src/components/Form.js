@@ -2,38 +2,32 @@ import React from 'react';
 import "../styles/form.css";
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
-import { useDispatch, useSelector  } from 'react-redux';
-import { openModal } from '../actions';
 import ModalMsg from './ModalMsg';
 import { useState } from 'react';
 
 function Form() {
   const form = useRef();
-  const [text, setText] = useState ("Contactez-moi")
+  const [text, setText] = useState("Contactez-moi")
   const [opened, setIsOpened] = useState(false)
-  // const dispatch = useDispatch()
-  const isOpened = useSelector((state)=> state.isOpened)
-    console.log(isOpened);
-    const onChangeValue = () => {
-      // setIsOpen(value)
-     handleOpenModal();
-     
-     
-    }
-    const handleOpenModal = () => {
-      // dispatch(openModal())
-      setIsOpened(!opened)
+  // const isOpened = useSelector((state) => state.isOpened)
+  // console.log(isOpened);
 
-    }
+  const onChangeValue = () => {
+    handleOpenModal();
+  }
+  const handleOpenModal = () => {
+    setIsOpened(!opened)
 
-console.log(text)
+  }
+
+  console.log(text)
 
   const sendEmail = (e) => {
     e.preventDefault();
     const serviceId = "service_5s1xyxx";
     const templateId = "template_l7qk1j4";
     const publicKey = "BgneIOmTI_wiVuDLh";
-    
+
     setText("Envoie en cours...")
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey)
@@ -42,10 +36,9 @@ console.log(text)
         if (result.text === "OK") {
           e.target.reset();
           setText("Contactez-moi")
-
           handleOpenModal()
         }
-        
+
       }, (error) => {
         console.log(error.text);
       });
@@ -65,7 +58,7 @@ console.log(text)
         <div className='input-wrapper2'>
           <textarea className="contact-text" name='message' type='text' placeholder='Message'></textarea> </div>
         <input className='contact-submit' type='submit' value={text} id='input-submit' /> </form>
-        { opened && <ModalMsg onChangeValue={onChangeValue}/>} 
+      {opened && <ModalMsg onChangeValue={onChangeValue} />}
 
     </div>
   )

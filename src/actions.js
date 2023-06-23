@@ -10,12 +10,3 @@ export const click = () => ({
     
 })
 
-export const openModal = () => ({
-    type: "openModal"
-})
-
-export const changeFilterValue = (value) => ({
-    type: "changeFilterValue",
-    payload: { filterValue : value }
-
-});

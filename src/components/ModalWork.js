@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/modalWork.css";
-import Datas from "../lists/projects.json"
 
 function ModalWork({ isOpen, onChangeValue, projects }) {
     // const projects = Datas.projects

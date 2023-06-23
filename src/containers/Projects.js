@@ -1,5 +1,4 @@
 import React from 'react'
-import Filter from './Filter';
 import "../styles/projects.css";
 import Works from '../components/Works';
 import "../styles/works.css";
