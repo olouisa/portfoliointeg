@@ -9,6 +9,7 @@
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/ArgentBank-website.git",
+    "site": "",
     "picture": "argentbankimg.png",
     "date": "06-2023",
     "competences": [
@@ -30,6 +31,7 @@
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/Debuggez-une-application-React.JS.git",
+    "site": "",
     "picture": "77events.png",
     "date": "05-2023",
     "competences": [
@@ -44,12 +46,13 @@
 {
     "id" : 3,
     "title": "Nina Carducci",
-    "description": "Ce projet a pour objectif l'optimisation du site de la photographe Nina Carducci. Sont compris dans la mission, le en place du référencement local en utilisant Schema.org, l'ajout les metas pour les réseaux sociaux, ainsi que les modifications liées à l’accessibilité du site.",
+    "description": "Ce projet a pour objectif l'optimisation du site de la photographe Nina Carducci. Sont compris dans la mission, la mise en place du référencement local en utilisant Schema.org, l'ajout les metas pour les réseaux sociaux, ainsi que les modifications liées à l’accessibilité du site.",
     "domain": [
         "Optimisation",
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/ninacarducci.github.io.git",
+    "site": "https://olouisa.github.io/ninacarducci.github.io/",
     "picture": "ninaproject.png",
     "date": "05-2023",
     "competences": [
@@ -69,6 +72,7 @@
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/projet-8.git",
+    "site": "",
     "picture": "kasaproject.png",
     "date": "04-2023",
     "competences": [
@@ -89,6 +93,7 @@
         "Tous"
     ],
     "gitHub": "https://github.com/olouisa/Projet-4.git",
+    "site": "",
     "picture": "ohMyFoodProject.png",
     "date": "12-2022",
     "competences": [
@@ -108,7 +113,8 @@
         "HTML5/CSS",
         "Tous"
     ],
-    "gitHub": "",
+    "gitHub": "https://github.com/olouisa/bookiproject",
+    "site": "",
     "picture": "bookiProject.png",
     "date": "11-2022",
     "competences": [
