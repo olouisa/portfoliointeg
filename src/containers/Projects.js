@@ -3,17 +3,18 @@ import "../styles/projects.css";
 import Works from '../components/Works';
 import "../styles/works.css";
 import FilterButton from '../components/FilterButton';
+import Datas from '../lists/projects.json';
 
 function Projects() {
 
-
+const projectsDatas = Datas.projects;
 
   return (
     <div className='projects-container' id='projets'>
         <h2 className='projects-title'>Mes projets</h2>
         <FilterButton/>
         <div className='gallery'>
-            <Works/>
+            <Works data={projectsDatas} />
         </div>
       
     </div>

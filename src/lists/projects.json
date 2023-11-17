@@ -1,4 +1,32 @@
 {
+    "websites" : [
+        {
+            "id" : 1,
+            "title": "Casperetlulu",
+            "description": "Site web construit en collaboration avec Aurélie Thiré pour l'association Casperetlulu en bénévolat. Cette association recueille des chats errants ou abandonnés et leur cherche une famille adoptive. Ce site a pour objectif de les rendre visibles et ainsi faciliter leur adoption ou la récolte de dons. C'est un peu une sorte de catalogue avec un compte admin accessible uniquement par la présidente qui peut ajouter, modifier ou supprimer des posts de chats ou d'évènements. ",
+            "domain": [
+                "React/Javascript",
+                "Tous",
+                "Backend",
+                "MongoDB"
+                
+            ],
+            "gitHub": "",
+            "site": "https://www.casperetlulu.fr",
+            "picture": "banner_cats2.jpg",
+            "date": "10-2023",
+            "competences": [
+                "Création du backend avec MongoDB et Express.js",
+                "Intégration/développement du site avec JavaScript et REACT",
+                "API REST",
+                "Authentification",
+                "Redux"
+        
+            ]
+        
+        }
+    ],
+
     "projects" : [
  {
     "id" : 1,
@@ -131,6 +159,8 @@
     "HTML5/CSS",
     "React/Javascript",
     "Optimisation",
+    "MongoDB",
+    "Backend",
     "Tous"
 ],
 
@@ -138,6 +168,7 @@
     "HTML/5",
     "CSS",
     "Javascript",
-    "React"
+    "React/Redux",
+    "MongoDB/Express.js"
 ]
 }

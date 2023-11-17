@@ -8,12 +8,17 @@ import { click, getClickValue } from '../actions';
 
 
 
-function Works() {
+function Works({ data }) {
   const [isOpen, setIsOpen] = useState(false);
   const [id, setId] = useState();
-  const projects = Datas.projects;
-  console.log(projects);
+  const clickVal = useSelector((state) => state.clickValue);
 
+  // const projects = Datas.projects;
+  console.log("datas", data);
+  if (!Array.isArray(data)) {
+    console.error('array n\'est pas un tableau :', data);
+    return null; // ou afficher un message d'erreur
+  }
   // const dispatch = useDispatch()
   // useEffect(() => {
   //   dispatch(click());
@@ -41,7 +46,6 @@ function Works() {
     handleOpenModal();
   }
 
-  const clickVal = useSelector((state) => state.clickValue);
   console.log(clickVal, "test2")
 
 
@@ -49,7 +53,7 @@ function Works() {
 
     <div className='work-gallery'>
 
-      {projects.filter((work) => work.domain.includes(clickVal)).map((item) => {
+      {data.filter((work) => work.domain.includes(clickVal)).map((item) => {
 
         console.log(item)
         return (
@@ -61,13 +65,14 @@ function Works() {
             }
             key={item.id} className='works-container'
             style={{ backgroundImage: `url(${require(`../assets/images/${item.picture}`)})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-          >
+            >
             <div className='backgroundWork'>
               <h2 key={item} className='work-title'>{item.title}</h2>
               {isOpen && item.id === id && <ModalWork key={item.id}
                 onChangeValue={onChangeValue}
-                projects={item} />}
+                data={item} />}
             </div>
+            { item.id && <div className='workCategory'>{item.domain.filter((word) => word !== "Tous").join(' | ')}</div>}
           </div>
 
 
