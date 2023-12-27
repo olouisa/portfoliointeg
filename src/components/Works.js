@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import "../styles/works.css";
 import Datas from "../lists/projects.json";
 import ModalWork from './ModalWork';
@@ -58,21 +59,24 @@ function Works({ data }) {
         console.log(item)
         return (
           <div
-            onClick={() => {
-              handleOpenModal()
-              changeId(item.id)
-            }
-            }
+
             key={item.id} className='works-container'
             style={{ backgroundImage: `url(${require(`../assets/images/${item.picture}`)})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-            >
-            <div className='backgroundWork'>
+          >
+            <div className='backgroundWork'
+              onClick={() => {
+                handleOpenModal()
+                changeId(item.id)
+              }
+              }>
               <h2 key={item} className='work-title'>{item.title}</h2>
               {isOpen && item.id === id && <ModalWork key={item.id}
                 onChangeValue={onChangeValue}
                 data={item} />}
             </div>
-            { item.id && <div className='workCategory'>{item.domain.filter((word) => word !== "Tous").join(' | ')}</div>}
+            {item.id && <div className='workCategory'>{item.domain.filter((word) => word !== "Tous").join(' | ')}</div>}
+            <div className='siteLinkDiv'>{item.site && <Link className='siteLinkWorks' to={item.site}>Voir le site ici</Link>}</div>
+
           </div>
 
 

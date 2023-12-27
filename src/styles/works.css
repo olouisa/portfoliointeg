@@ -60,6 +60,32 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 65px;
+}
+.siteLinkDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.siteLinkWorks {
+    text-decoration: none;
+    width: 40%;
+    display: block;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 25px;
+    color: white;
+    font-family: Montserrat;
+    background-color: #606669;
+}
+
+.siteLinkWorks:hover {
+    color: black;
+    background-color: #EEEDE7 ;
+}

@@ -11,7 +11,7 @@ const projectsDatas = Datas.projects;
 
   return (
     <div className='projects-container' id='projets'>
-        <h2 className='projects-title'>Mes projets</h2>
+        <h2 className='projects-title'>Mes projets non déployés | GitHub</h2>
         <FilterButton/>
         <div className='gallery'>
             <Works data={projectsDatas} />
