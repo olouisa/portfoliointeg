@@ -68,15 +68,11 @@
 
 .work-github {
     width: 100%;
-    /* background-color: white; */
     border-radius: 50px;
     display: block;
  
 }
-/* .work-github:hover{
-    background-color: #C0C9CC;
 
-} */
 .work-github-link {
     display: block;
     width: 35px;
@@ -84,12 +80,13 @@
     border-radius: 50px;
     margin-bottom: 10px;
     margin-right: 10px;
+    transition: transform 0.2s ease-in-out;
 
 }
 
 
  .work-github-link:hover {
-    width: 40px;
+    transform: scale(1.2); 
  }
 
    
