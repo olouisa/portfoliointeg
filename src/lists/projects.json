@@ -151,5 +151,12 @@
         "Javascript",
         "React/Redux",
         "MongoDB/Express.js"
+    ],
+
+    "carrousel": [
+        "banner_cats2.jpg",
+        "ohMyFood3.png",
+        "booki2.png"
+
     ]
 }
