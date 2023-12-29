@@ -82,7 +82,8 @@
     border-radius: 25px;
     color: white;
     font-family: Montserrat;
-    background-color: #606669;
+    /* background-color: #606669; */
+    background-color: #596f7e;
 }
 
 .siteLinkWorks:hover {

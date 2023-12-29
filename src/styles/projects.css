@@ -37,19 +37,27 @@
 .filterbutton {
     width: 150px;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 25px;
     border-color: transparent;
-    background-color: #EEEDE7;
+    /* background-color: #EEEDE7; */
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
     letter-spacing: 0em;
+    /* background-color: #868B8E; */
+    /* background-color: #606669; */
+    background-color: #596f7e;
+
+    color: white;
 }
 
 .filterbutton:hover {
-    background-color: #868B8E;
-    color: white;
+    /* background-color: #868B8E;
+    color: white; */
+    background-color: #EEEDE7;
+    color: black;
+
 }
 
 
