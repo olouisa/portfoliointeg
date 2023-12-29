@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoliointeg/static/css/main.0434756a.css",
+    "main.css": "/portfoliointeg/static/css/main.ba31ac3d.css",
     "main.js": "/portfoliointeg/static/js/main.48411064.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js",
     "static/media/coding.png": "/portfoliointeg/static/media/coding.2e68ba8d8a257df88b1c.png",
@@ -16,12 +16,12 @@
     "static/media/argentbankimg.png": "/portfoliointeg/static/media/argentbankimg.d33cf63ee9f13ddde776.png",
     "static/media/77events.png": "/portfoliointeg/static/media/77events.58586f72600541acf63c.png",
     "index.html": "/portfoliointeg/index.html",
-    "main.0434756a.css.map": "/portfoliointeg/static/css/main.0434756a.css.map",
+    "main.ba31ac3d.css.map": "/portfoliointeg/static/css/main.ba31ac3d.css.map",
     "main.48411064.js.map": "/portfoliointeg/static/js/main.48411064.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0434756a.css",
+    "static/css/main.ba31ac3d.css",
     "static/js/main.48411064.js"
   ]
 }
