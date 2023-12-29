@@ -12,6 +12,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: cursive;
 }
 
 .filter {
@@ -48,6 +49,7 @@
     /* background-color: #868B8E; */
     /* background-color: #606669; */
     background-color: #596f7e;
+    box-shadow: 3px 3px 5px grey;
 
     color: white;
 }
