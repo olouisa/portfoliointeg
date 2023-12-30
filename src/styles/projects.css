@@ -48,8 +48,11 @@
     letter-spacing: 0em;
     /* background-color: #868B8E; */
     /* background-color: #606669; */
-    background-color: #596f7e;
-    box-shadow: 3px 3px 5px grey;
+    /* background-color: #596f7e; */
+    background: linear-gradient(45deg, #596f7e, #a1a8b9);
+    border: transparent;
+
+    box-shadow: 3px 3px 5px #8080808c;
 
     color: white;
 }
@@ -57,13 +60,14 @@
 .filterbutton:hover {
     /* background-color: #868B8E;
     color: white; */
-    background-color: #EEEDE7;
-    color: black;
+    /* background-color: #EEEDE7; */
+    background: linear-gradient(45deg, #596f7e96, #a1a8b987);
+    /* color: black; */
 
 }
 
 
 .filterbutton:focus {
-    background-color: #868B8E;
-    color: white;
+    background: linear-gradient(45deg, #596f7e96, #a1a8b987);
+    /* color: white; */
 }

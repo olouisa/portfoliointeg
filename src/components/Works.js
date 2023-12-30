@@ -60,7 +60,7 @@ function Works({ data }) {
         return (
           <div
 
-            key={item.id} className='works-container'
+            key={item.id} className={ isOpen ? 'open' : 'works-container'}
             style={{ backgroundImage: `url(${require(`../assets/images/${item.picture}`)})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
           >
             <div className='backgroundWork'
