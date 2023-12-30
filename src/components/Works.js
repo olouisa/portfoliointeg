@@ -9,10 +9,18 @@ import { click, getClickValue } from '../actions';
 
 
 
-function Works({ data }) {
+function Works({ data, section }) {
   const [isOpen, setIsOpen] = useState(false);
   const [id, setId] = useState();
   const clickVal = useSelector((state) => state.clickValue);
+  const clickVal2 = useSelector((state) => state.clickValue2);
+  let value;
+
+  if(section==="projects") {
+    value = clickVal
+  } else {
+    value = clickVal2;
+  }
 
   // const projects = Datas.projects;
   console.log("datas", data);
@@ -54,7 +62,7 @@ function Works({ data }) {
 
     <div className='work-gallery'>
 
-      {data.filter((work) => work.domain.includes(clickVal)).map((item) => {
+      {data.filter((work) => work.domain.includes(value)).map((item) => {
 
         console.log(item)
         return (

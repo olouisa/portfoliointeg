@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoliointeg/static/css/main.596b86d8.css",
-    "main.js": "/portfoliointeg/static/js/main.7b3aff56.js",
+    "main.css": "/portfoliointeg/static/css/main.ce99da84.css",
+    "main.js": "/portfoliointeg/static/js/main.fca4c035.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js",
     "static/media/ohMyFood3.png": "/portfoliointeg/static/media/ohMyFood3.3a4429005d87c11e9f1a.png",
     "static/media/restaurants.png": "/portfoliointeg/static/media/restaurants.ca385a9c29e2236bba51.png",
@@ -21,12 +21,12 @@
     "static/media/ohMyFoodProjectLittle.png": "/portfoliointeg/static/media/ohMyFoodProjectLittle.f8f941c7525e727ff68f.png",
     "static/media/77events.png": "/portfoliointeg/static/media/77events.58586f72600541acf63c.png",
     "index.html": "/portfoliointeg/index.html",
-    "main.596b86d8.css.map": "/portfoliointeg/static/css/main.596b86d8.css.map",
-    "main.7b3aff56.js.map": "/portfoliointeg/static/js/main.7b3aff56.js.map",
+    "main.ce99da84.css.map": "/portfoliointeg/static/css/main.ce99da84.css.map",
+    "main.fca4c035.js.map": "/portfoliointeg/static/js/main.fca4c035.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.596b86d8.css",
-    "static/js/main.7b3aff56.js"
+    "static/css/main.ce99da84.css",
+    "static/js/main.fca4c035.js"
   ]
 }

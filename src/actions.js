@@ -5,8 +5,14 @@ export const getClickValue = (value) => ({
 
 });
 
-export const click = () => ({
-    type: "click",
+export const getClickValue2 = (value) => ({
+    type: "getClickValue2",
+    payload: { clickValue2 : value }
+
+});
+
+// export const click = () => ({
+//     type: "click",
     
-})
+// })
 

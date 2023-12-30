@@ -12,9 +12,9 @@ const projectsDatas = Datas.projects;
   return (
     <div className='projects-container' id='projets'>
         <h2 className='projects-title'>Mes projets non déployés | GitHub</h2>
-        <FilterButton/>
+        <FilterButton section={'projects'} />
         <div className='gallery'>
-            <Works data={projectsDatas} />
+            <Works data={projectsDatas} section={'projects'}/>
         </div>
       
     </div>

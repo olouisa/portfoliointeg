@@ -5,6 +5,7 @@ import {produce} from "immer";
 const initialState = {
     // isClicked : false,
     clickValue : "Tous",
+    clickValue2 : "Tous"
    
 }
 
@@ -17,11 +18,17 @@ export function reducer(state = initialState, action) {
         })
     }
 
-    if(action.type=== "click") {
+    if(action.type === "getClickValue2") {
         return produce(state, (draft) => {
-            draft.isClicked = true
+            draft.clickValue2 = action.payload.clickValue2
         })
     }
+
+    // if(action.type=== "click") {
+    //     return produce(state, (draft) => {
+    //         draft.isClicked = true
+    //     })
+    // }
 
 
 return state
