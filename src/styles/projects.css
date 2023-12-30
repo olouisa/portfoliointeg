@@ -9,10 +9,17 @@
 }
 
 .projects-title {
-    width: 100%;
+    /* width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: cursive; */
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20PX;
     font-family: cursive;
+    border-bottom: solid 3px rgb(143 171 190 / 10%);
+    color: #043657;
 }
 
 .filter {
