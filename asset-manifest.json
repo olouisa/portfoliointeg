@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoliointeg/static/css/main.ce99da84.css",
+    "main.css": "/portfoliointeg/static/css/main.3690a8b9.css",
     "main.js": "/portfoliointeg/static/js/main.43fa9d4e.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js",
     "static/media/ohMyFood3.png": "/portfoliointeg/static/media/ohMyFood3.3a4429005d87c11e9f1a.png",
@@ -21,12 +21,12 @@
     "static/media/ohMyFoodProjectLittle.png": "/portfoliointeg/static/media/ohMyFoodProjectLittle.f8f941c7525e727ff68f.png",
     "static/media/77events.png": "/portfoliointeg/static/media/77events.58586f72600541acf63c.png",
     "index.html": "/portfoliointeg/index.html",
-    "main.ce99da84.css.map": "/portfoliointeg/static/css/main.ce99da84.css.map",
+    "main.3690a8b9.css.map": "/portfoliointeg/static/css/main.3690a8b9.css.map",
     "main.43fa9d4e.js.map": "/portfoliointeg/static/js/main.43fa9d4e.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce99da84.css",
+    "static/css/main.3690a8b9.css",
     "static/js/main.43fa9d4e.js"
   ]
 }
