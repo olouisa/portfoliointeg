@@ -23,15 +23,15 @@ const dispatch = useDispatch();
 // console.log(value);
 
 return (
-  <div className='filterButton'>
-    {
+  <div className={(section==='webSites') ? 'filterButton' : 'noFilter'}>
+    { section==='webSites' ?
       category.map((item) => {
         return <button onClick={() => {
           changeValue(item);
           console.log("here")
         }} className='filterbutton' key={item}>{item}</button>
 
-      })
+      }) : <div className='noFilter'></div>
     }
   </div>
 )

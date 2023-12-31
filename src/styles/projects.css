@@ -15,7 +15,7 @@
     font-family: cursive; */
     width: 60%;
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding-bottom: 20PX;
     font-family: cursive;
     border-bottom: solid 3px rgb(143 171 190 / 10%);
@@ -37,7 +37,9 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    margin-top: 30px;
+
 
 
 }
@@ -77,4 +79,9 @@
 .filterbutton:focus {
     background: linear-gradient(45deg, #596f7e96, #a1a8b987);
     /* color: white; */
+}
+
+.noFilter {
+    margin: 0px;
+    padding: 0px;
 }
