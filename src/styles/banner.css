@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center; */
     margin-bottom: 40px;
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: 5px 5px 10px #8080808c;
     position: relative;
 
 
@@ -138,17 +138,18 @@ box-shadow: inset 0 0 5px grey;
 .icon:hover {
     transform: scale(1.2);
 }
+
 .icon a {
     width: 100%;
     display: block;
     height: 100%;
     color: white;
-    
+
 }
 
 .icon a:hover {
-   /* color: #012136; */
-   color:#043657;
+    /* color: #012136; */
+    color: #043657;
 
 }
 

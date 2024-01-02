@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/portfoliointeg/static/css/main.4d46f2ec.css",
-    "main.js": "/portfoliointeg/static/js/main.45644ad5.js",
+    "main.css": "/portfoliointeg/static/css/main.6c1ae13b.css",
+    "main.js": "/portfoliointeg/static/js/main.c44c0e3b.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js",
     "static/media/ohMyFood3.png": "/portfoliointeg/static/media/ohMyFood3.3a4429005d87c11e9f1a.png",
     "static/media/restaurants.png": "/portfoliointeg/static/media/restaurants.ca385a9c29e2236bba51.png",
     "static/media/coding.png": "/portfoliointeg/static/media/coding.2e68ba8d8a257df88b1c.png",
+    "static/media/waves.jpg": "/portfoliointeg/static/media/waves.3cbbd683e3a1b920deee.jpg",
     "static/media/computer.png": "/portfoliointeg/static/media/computer.5a581d9f09437c32f2d8.png",
     "static/media/ohMyFood2.png": "/portfoliointeg/static/media/ohMyFood2.5f022bd9385915bd0df5.png",
     "static/media/office.png": "/portfoliointeg/static/media/office.f86ed4d33b79003f4dc2.png",
     "static/media/laptop.png": "/portfoliointeg/static/media/laptop.b9964e9fe132d83a60c9.png",
+    "static/media/ocean.jpg": "/portfoliointeg/static/media/ocean.9c15d5f16492317e550b.jpg",
     "static/media/booki2.png": "/portfoliointeg/static/media/booki2.f9edac92e0c9f980df55.png",
     "static/media/banner_cats.png": "/portfoliointeg/static/media/banner_cats.145756f731896d6806e2.png",
+    "static/media/bleu.jpg": "/portfoliointeg/static/media/bleu.566304650dd1b3839e35.jpg",
     "static/media/banner_cats2.jpg": "/portfoliointeg/static/media/banner_cats2.5eedb58f637c50a7a051.jpg",
     "static/media/ohMyFoodProject.png": "/portfoliointeg/static/media/ohMyFoodProject.f4114a0c0b6240787ad9.png",
+    "static/media/africa.jpg": "/portfoliointeg/static/media/africa.29625a04b2bb83e49419.jpg",
     "static/media/kasaproject.png": "/portfoliointeg/static/media/kasaproject.0c8b3a24cb70836b146d.png",
     "static/media/bookiProject.png": "/portfoliointeg/static/media/bookiProject.36e14aaa45854c4983ee.png",
     "static/media/ninaproject.png": "/portfoliointeg/static/media/ninaproject.d261fd853f0016edf853.png",
@@ -21,12 +25,12 @@
     "static/media/ohMyFoodProjectLittle.png": "/portfoliointeg/static/media/ohMyFoodProjectLittle.f8f941c7525e727ff68f.png",
     "static/media/77events.png": "/portfoliointeg/static/media/77events.58586f72600541acf63c.png",
     "index.html": "/portfoliointeg/index.html",
-    "main.4d46f2ec.css.map": "/portfoliointeg/static/css/main.4d46f2ec.css.map",
-    "main.45644ad5.js.map": "/portfoliointeg/static/js/main.45644ad5.js.map",
+    "main.6c1ae13b.css.map": "/portfoliointeg/static/css/main.6c1ae13b.css.map",
+    "main.c44c0e3b.js.map": "/portfoliointeg/static/js/main.c44c0e3b.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d46f2ec.css",
-    "static/js/main.45644ad5.js"
+    "static/css/main.6c1ae13b.css",
+    "static/js/main.c44c0e3b.js"
   ]
 }
