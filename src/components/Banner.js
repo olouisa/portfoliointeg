@@ -58,8 +58,9 @@ function Banner() {
 
 
         <div className='medias-icons'>
-          <div className='icon'><i class="fa-brands fa-linkedin" alt='Linkedin'></i></div>
-          <div className='icon'><i class="fa-brands fa-github" alt='GitHub'></i></div>
+          <div className='icon'><a href='https://www.linkedin.com/in/
+louisa-ongenyi'><i class="fa-brands fa-linkedin" alt='Linkedin' target="_blank" rel="noopener noreferrer"></i></a></div>
+          <div className='icon'><a href='https://github.com/olouisa?tab=repositories' target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" alt='GitHub'></i></a></div>
 
         {/* </div> */}
       </div>

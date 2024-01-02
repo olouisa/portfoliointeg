@@ -90,6 +90,7 @@ box-shadow: inset 0 0 5px grey;
     font-weight: 400;
     text-transform: lowercase;
 }
+
 /* .fade-transition {
     transition: background-image 0.5s ease-in-out;
   }
@@ -106,7 +107,7 @@ box-shadow: inset 0 0 5px grey;
 }
 
 .navBtns {
-    background: rgb(0 0 0 / 30%);
+    background: rgb(0 0 0 / 41%);
     width: 160px;
     height: 40px;
     font-family: quicksand;
@@ -120,6 +121,7 @@ box-shadow: inset 0 0 5px grey;
     color: #012136;
     background: rgb(241 241 241 / 40%);
 }
+
 .medias-icons {
     position: absolute;
     top: 9%;
@@ -128,12 +130,42 @@ box-shadow: inset 0 0 5px grey;
     font-size: 40px;
 }
 
+.icon {
+    transition: transform 0.25s ease-in-out;
+    margin-bottom: 5px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+.icon a {
+    width: 100%;
+    display: block;
+    height: 100%;
+    color: white;
+    
+}
+
+.icon a:hover {
+   /* color: #012136; */
+   color:#043657;
+
+}
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .banner-title {
         font-size: 30px;
     }
 
+    .medias-icons {
+        font-size: 30px;
+    }
+
+    .navBtns {
+
+        font-size: 17px;
+
+    }
 
 
 }
