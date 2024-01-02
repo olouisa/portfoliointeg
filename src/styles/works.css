@@ -73,7 +73,7 @@
     width: 100%;
     text-align: center;
     color: white;
-    font-family: Montserrat
+    font-family: quicksand;
 }
 
 .work-gallery {
@@ -87,7 +87,9 @@
 
 .workCategory {
     padding-top: 5px;
-    font-family: cursive;
+    font-family: quicksand;
+    font-weight: 500;
+    font-size: 16px;
 }
 .siteLinkDiv {
     width: 100%;
@@ -106,14 +108,11 @@
     margin-bottom: 10px;
     padding-bottom: 3px;
     padding-top: 3px;
-    border-radius: 25px;
-    /* color: white;
-    font-family: Montserrat;
-    background-color: #596f7e;
-    box-shadow: 5px 5px 5px #D9D9D9; */
+    border-radius: 0px 25px;
+    font-size: 14px;
     color: #596f7e;
-    font-family: Montserrat;
-    font-weight: 600;
+    font-family: quicksand;
+    font-weight: 700;
     /* background-color: #606669; */
     /* background-color: rgb(89 111 126 / 70%); */
     box-shadow: 5px 5px 5px #D9D9D9;

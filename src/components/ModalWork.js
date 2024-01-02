@@ -10,7 +10,7 @@ function ModalWork({ isOpen, onChangeValue, data }) {
             <div className='modalWork-container'>
                 <button onClick={() =>  onChangeValue } className='close'>X</button>
                 <h2 className='modalWork-title'>{data.title}</h2>
-                {data.site && <Link to={data.site}>Voir le site ici</Link> }
+                {data.site && <Link className='modalLink' to={data.site}>Voir le site ici</Link> }
 
                 <p className='date'>{data.date}</p>
                 <h3 className='modalWork-description'>Description</h3>

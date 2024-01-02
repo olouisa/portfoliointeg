@@ -9,17 +9,15 @@
 }
 
 .projects-title {
-    /* width: 100%;
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: cursive; */
     width: 60%;
     text-align: center;
     /* margin-bottom: 50px; */
     padding-bottom: 20PX;
-    font-family: cursive;
-    border-bottom: solid 3px rgb(143 171 190 / 10%);
+    font-family: 'Amatic SC';
+    /* border-bottom: solid 3px rgb(143 171 190 / 10%); */
     color: #043657;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .filter {
@@ -31,7 +29,7 @@
 }
 
 .filterButton {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,13 +43,13 @@
 }
 
 .filterbutton {
-    width: 150px;
+    width: 160px;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 40px 0px;
     border-color: transparent;
     /* background-color: #EEEDE7; */
-    font-family: Montserrat;
-    font-size: 20px;
+    font-family: quicksand;
+    font-size: 17px;
     font-weight: 500;
     line-height: 34px;
     letter-spacing: 0em;
@@ -60,9 +58,7 @@
     /* background-color: #596f7e; */
     background: linear-gradient(45deg, #596f7e, #a1a8b9);
     border: transparent;
-
     box-shadow: 3px 3px 5px #8080808c;
-
     color: white;
 }
 
