@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/portfoliointeg/static/css/main.9b89dec3.css",
-    "main.js": "/portfoliointeg/static/js/main.c44c0e3b.js",
+    "main.css": "/portfoliointeg/static/css/main.e4ec8299.css",
+    "main.js": "/portfoliointeg/static/js/main.39face25.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js",
+    "static/media/lake.jpg": "/portfoliointeg/static/media/lake.c7634b70915630170f28.jpg",
+    "static/media/water2.jpg": "/portfoliointeg/static/media/water2.70091e1a2616a6594e22.jpg",
+    "static/media/beach.jpg": "/portfoliointeg/static/media/beach.e4d48dc43ae3aaade188.jpg",
+    "static/media/water.jpg": "/portfoliointeg/static/media/water.45677abe6ed2bdf1eeb5.jpg",
+    "static/media/water3.jpg": "/portfoliointeg/static/media/water3.3199274bc6d297018f3c.jpg",
+    "static/media/water4.jpg": "/portfoliointeg/static/media/water4.d37bf17d7288fb742cb2.jpg",
     "static/media/ohMyFood3.png": "/portfoliointeg/static/media/ohMyFood3.3a4429005d87c11e9f1a.png",
     "static/media/restaurants.png": "/portfoliointeg/static/media/restaurants.ca385a9c29e2236bba51.png",
     "static/media/coding.png": "/portfoliointeg/static/media/coding.2e68ba8d8a257df88b1c.png",
     "static/media/waves.jpg": "/portfoliointeg/static/media/waves.3cbbd683e3a1b920deee.jpg",
     "static/media/computer.png": "/portfoliointeg/static/media/computer.5a581d9f09437c32f2d8.png",
     "static/media/ohMyFood2.png": "/portfoliointeg/static/media/ohMyFood2.5f022bd9385915bd0df5.png",
+    "static/media/ocean2.jpg": "/portfoliointeg/static/media/ocean2.b9226210d50cdd023ce1.jpg",
     "static/media/office.png": "/portfoliointeg/static/media/office.f86ed4d33b79003f4dc2.png",
     "static/media/laptop.png": "/portfoliointeg/static/media/laptop.b9964e9fe132d83a60c9.png",
     "static/media/ocean.jpg": "/portfoliointeg/static/media/ocean.9c15d5f16492317e550b.jpg",
@@ -25,12 +32,12 @@
     "static/media/ohMyFoodProjectLittle.png": "/portfoliointeg/static/media/ohMyFoodProjectLittle.f8f941c7525e727ff68f.png",
     "static/media/77events.png": "/portfoliointeg/static/media/77events.58586f72600541acf63c.png",
     "index.html": "/portfoliointeg/index.html",
-    "main.9b89dec3.css.map": "/portfoliointeg/static/css/main.9b89dec3.css.map",
-    "main.c44c0e3b.js.map": "/portfoliointeg/static/js/main.c44c0e3b.js.map",
+    "main.e4ec8299.css.map": "/portfoliointeg/static/css/main.e4ec8299.css.map",
+    "main.39face25.js.map": "/portfoliointeg/static/js/main.39face25.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b89dec3.css",
-    "static/js/main.c44c0e3b.js"
+    "static/css/main.e4ec8299.css",
+    "static/js/main.39face25.js"
   ]
 }
