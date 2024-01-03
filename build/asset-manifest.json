@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoliointeg/static/css/main.920d1cbc.css",
+    "main.css": "/portfoliointeg/static/css/main.4ed0e42c.css",
     "main.js": "/portfoliointeg/static/js/main.0201dec5.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js",
     "static/media/lake.jpg": "/portfoliointeg/static/media/lake.c7634b70915630170f28.jpg",
@@ -32,12 +32,12 @@
     "static/media/ohMyFoodProjectLittle.png": "/portfoliointeg/static/media/ohMyFoodProjectLittle.f8f941c7525e727ff68f.png",
     "static/media/77events.png": "/portfoliointeg/static/media/77events.58586f72600541acf63c.png",
     "index.html": "/portfoliointeg/index.html",
-    "main.920d1cbc.css.map": "/portfoliointeg/static/css/main.920d1cbc.css.map",
+    "main.4ed0e42c.css.map": "/portfoliointeg/static/css/main.4ed0e42c.css.map",
     "main.0201dec5.js.map": "/portfoliointeg/static/js/main.0201dec5.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfoliointeg/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.920d1cbc.css",
+    "static/css/main.4ed0e42c.css",
     "static/js/main.0201dec5.js"
   ]
 }
