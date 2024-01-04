@@ -83,7 +83,7 @@ function Works({ data, section }) {
                 data={item} />}
             </div>
             {item.id && <div className='workCategory'>{item.domain.filter((word) => word !== "Tous").join(' | ')}</div>}
-            <div className='siteLinkDiv'>{item.site && <Link className='siteLinkWorks' to={item.site}>Voir le site ici</Link>}</div>
+            <div className='siteLinkDiv'>{(item.site) && <Link className='siteLinkWorks' to={item.site}>Voir le site ici</Link>}</div>
 
           </div>
 
