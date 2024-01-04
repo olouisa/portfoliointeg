@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+/* .arrowUp {
+  position: fixed;
+  bottom: 30px;
+  right: 4%;
+  background: linear-gradient(45deg, #596f7e, #a1a8b9);
+  padding: 9px 8px;
+  border-radius: 50PX;
+  box-shadow: 3px 3px 5px #8080808c;
+}
+.arrowUp:hover {
+  background-color: (45deg, #596f7e96, #a1a8b987)
+}
+.arrowLink  {
+  background: transparent;
+  border-color: transparent;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+} */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

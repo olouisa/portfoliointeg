@@ -71,24 +71,26 @@ box-shadow: inset 0 0 5px grey;
 
 
 .banner-title {
-    width: 85%;
-    /* text-align: center; */
+    /* width: 85%; */
+    width: 64%;
     color: white;
     font-size: 50px;
-    /* position: absolute; */
     position: relative;
     font-family: 'Amatic SC';
 }
 
 .dev-title {
     text-transform: uppercase;
+    /* background: rgb(0 0 0 / 41%); */
 }
 
 .name {
     font-size: 40px;
     font-family: amatic sc;
     font-weight: 400;
+    /* background: rgb(0 0 0 / 41%); */
     text-transform: lowercase;
+    width: 25%;
 }
 
 /* .fade-transition {
