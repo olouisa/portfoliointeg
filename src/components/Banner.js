@@ -71,7 +71,7 @@ function Banner() {
         <h1 className='dev-title banner-title' ref={spans1}>Développeuse Web Frontend Junior</h1>
         <h2 className='name banner-title'><span>Louisa </span><span>Ongenyi</span></h2>
         <div className='btns-container'>
-          <button className='navBtns b1' onClick={scrollToSites}>Sites en lignes</button>
+          <button className='navBtns b1' onClick={scrollToSites}>Sites en ligne</button>
           <button className='navBtns b2' onClick={scrollToProjects}>Projets Web</button>
           <button className='navBtns b3' onClick={scrollToStack} >Tech Stack</button>
           <button className='navBtns b4' onClick={scrollToContact} >Contact</button>

@@ -102,7 +102,7 @@
         {
             "id": 2,
             "title": "724events",
-            "description": "L'agence évènementielle 724events souhaite publier la nouvelle version de son site vitrine. Un premier développeur freelance a commencé l’intégration il y a quelques temps. Celui-ci ayant été contraint d'abandonner le projet, le site est fonctionnel, mais quelques bugs font obstacle à bon usage par les visiteurs. Il a donc fallu finaliser le travail et trouver les solutions aux bugs. De plus, un cahier de recette prévoit des scénarios permettant de vérifier que le site fonctionne correctement",
+            "description": "L'agence évènementielle 724events souhaite publier la nouvelle version de son site vitrine. Un premier développeur freelance a commencé l’intégration il y a quelques temps. Celui-ci ayant été contraint d'abandonner le projet, le site est fonctionnel, mais quelques bugs font obstacle au bon usage par les visiteurs. Il a donc fallu finaliser le travail et trouver les solutions aux bugs. De plus, un cahier de recette prévoit des scénarios permettant de vérifier que le site fonctionne correctement",
             "domain": [
                 "React/Javascript",
                 "Debug",
