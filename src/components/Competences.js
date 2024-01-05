@@ -10,7 +10,7 @@ function Competences() {
     <div className='competences-container'>
         {competences.map((item) =>{ 
             return (
-                <div key={item} className='competence-item'>{item}</div>
+              item.picture && <div key={item} className='competence-item'><img className='competence-img' src={require(`../assets/images/${item.picture}`)}/></div>
 
             )
         

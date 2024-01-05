@@ -146,17 +146,48 @@
         "Tous"
     ],
     "competences": [
-        "HTML/5",
-        "CSS",
-        "Javascript",
-        "React/Redux",
-        "MongoDB/Express.js"
+        {
+            "id": 1,
+            "stack": "HTML/5",
+            "picture": "html.png"
+        },
+        {
+            "id": 2,
+            "stack": "CSS",
+            "picture": "css.png"
+        },
+        {
+            "id": 3,
+            "stack": "JavaScript",
+            "picture": "javascript.png"
+        },
+        {
+            "id": 4,
+            "stack": "React",
+            "picture": "react.png"
+        },
+        {
+            "id": 5,
+            "stack": "MongoDB/Express.js",
+            "picture": "mongodb.png"
+        },
+        {
+            "id": 6,
+            "stack": "Redux",
+            "picture": "redux.png"
+        },
+        {
+            "id": 7,
+            "stack": "Node.js",
+            "picture": "node-js.png"
+        }
     ],
-
+        
+               
+        
     "carrousel": [
         "banner_cats2.jpg",
         "ohMyFood3.png",
         "booki2.png"
-
     ]
 }
