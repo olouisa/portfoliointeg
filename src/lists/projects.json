@@ -31,7 +31,7 @@
                 "HTML5/CSS",
                 "Tous"
             ],
-            "category": "",
+            "category": "Site témoin",
             "gitHub": "https://github.com/olouisa/Projet-4.git",
             "site": "https://olouisa.github.io/Projet-4/",
             "picture": "ohMyFoodProject.png",
@@ -42,24 +42,7 @@
                 "Mettre en œuvre des animations CSS"
             ]
         },
-        {
-            "id": 3,
-            "title": "Nina Carducci",
-            "description": "Ce projet a pour objectif l'optimisation du site de la photographe Nina Carducci. Sont compris dans la mission, la mise en place du référencement local en utilisant Schema.org, l'ajout les metas pour les réseaux sociaux, ainsi que les modifications liées à l’accessibilité du site.",
-            "domain": [
-                "Optimisation",
-                "Tous"
-            ],
-            "category": "",
-            "gitHub": "https://github.com/olouisa/ninacarducci.github.io.git",
-            "site": "https://olouisa.github.io/ninacarducci.github.io/",
-            "picture": "ninaproject.png",
-            "date": "05-2023",
-            "competences": [
-                "Optimiser la performance d'un site web"
-            ],
-            "document": "Ongenyi_Louisa_2_audit_lighthouse_032023.pdf"
-        },
+      
         {
             "id": 4,
             "title": "Booki",
@@ -68,7 +51,7 @@
                 "HTML5/CSS",
                 "Tous"
             ],
-            "category": "",
+            "category": "Site témoin",
             "gitHub": "https://github.com/olouisa/bookiproject",
             "site": "https://olouisa.github.io/bookiproject/",
             "picture": "bookiProject.png",
@@ -99,25 +82,7 @@
                 "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
             ]
         },
-        {
-            "id": 2,
-            "title": "724events",
-            "description": "L'agence évènementielle 724events souhaite publier la nouvelle version de son site vitrine. Un premier développeur freelance a commencé l’intégration il y a quelques temps. Celui-ci ayant été contraint d'abandonner le projet, le site est fonctionnel, mais quelques bugs font obstacle au bon usage par les visiteurs. Il a donc fallu finaliser le travail et trouver les solutions aux bugs. De plus, un cahier de recette prévoit des scénarios permettant de vérifier que le site fonctionne correctement",
-            "domain": [
-                "React/Javascript",
-                "Debug",
-                "Tous"
-            ],
-            "gitHub": "https://github.com/olouisa/Debuggez-une-application-React.JS.git",
-            "site": "",
-            "picture": "77events.png",
-            "date": "05-2023",
-            "competences": [
-                "Débugger un site web grâce aux Chrome DevTools",
-                "Rédiger un cahier de recette pour tester un site"
-            ],
-            "document": "Ongenyi_Louisa_2_cahier_de_recette_032023.pdf"
-        },
+      
         {
             "id": 4,
             "title": "Kasa",
@@ -140,7 +105,6 @@
     "categories": [
         "HTML5/CSS",
         "React/Javascript",
-        "Optimisation",
         "MongoDB",
         "Backend",
         "Tous"

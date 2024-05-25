@@ -71,6 +71,8 @@ function Works({ data, section }) {
             key={item.id} className={ isOpen ? 'open' : 'works-container'}
             style={{ backgroundImage: `url(${require(`../assets/images/${item.picture}`)})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
           >
+            
+            <p  className='categorySite'>{item.category==="Site témoin" && `${item.category}`}</p>
             <div className='backgroundWork'
               onClick={() => {
                 handleOpenModal()
@@ -78,10 +80,12 @@ function Works({ data, section }) {
               }
               }>
               <h2 key={item} className='work-title'>{item.title}</h2>
+             
               {isOpen && item.id === id && <ModalWork key={item.id}
                 onChangeValue={onChangeValue}
                 data={item} />}
             </div>
+         
             {item.id && <div className='workCategory'>{item.domain.filter((word) => word !== "Tous").join(' | ')}</div>}
             <div className='siteLinkDiv'>{(item.site) && <a className='siteLinkWorks' href={item.site} target="_blank" rel="noopener noreferrer">Voir le site ici</a>}</div>
 

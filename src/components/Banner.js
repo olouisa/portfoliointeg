@@ -1,5 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import "../styles/banner.css";
+import { useSpring, animated } from 'react-spring';
 // import { SplitText } from 'gsap/all';
 // import SplitText from 'gsap-trial/SplitText';
 // import { useGSAP } from "@gsap/react";
@@ -11,19 +12,7 @@ import datas from "../lists/projects.json";
 
 function Banner() {
 
-  // const [currentIndex, setCurrentIndex] = useState(0);
-  // const pictures = datas.carrousel;
 
-  // useEffect(()=> {
-  //   const interval = setInterval(() => {
-  //   setCurrentIndex((prev) => (prev + 1)%pictures.length)
-  //   }, 3000);
-
-  //   return () => clearInterval(interval);
-  // }, [])
-
-  // const spans1 = document.querySelectorAll('.dev-title span');
-  // let split1 = SplitText.create(".dev-title", {type:"words,chars"});
 
   const spans1 = useRef([]);
   const spans2 = document.querySelectorAll('.name span');
@@ -35,11 +24,7 @@ function Banner() {
 
   useEffect(() => {
     window.addEventListener('load', () => {
-      // const split1 = new SplitText(spans1.current, {type: 'chars'});
-      // const TL = gsap.timeline();
-
-      // TL.from(split1.chars,{ duration: 1, y: -50, opacity: 0, ease: 'power2.out'}, "+=0.3");
-  
+        
     });
 }, [])  
 
@@ -57,18 +42,18 @@ function Banner() {
     document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
   };
 
-  return (
-    <div className='banner-content fade-transition' id='accueil' style={{ backgroundImage: `url(${require('../assets/images/ocean.jpg')})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+
+return (
+    <div className='banner-content fade-transition' id='accueil' style={{ backgroundImage: `url(${require('../assets/images/lake.jpg')})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
     >
-      {/* <div className='banner-filter'></div> */}
-      {/* <div className='textDiv'> */}
+
       <div className='lines'>
         <div className='l1'></div>
         <div className='l2'></div>
       </div>
 
       <div className='titles-container'>
-        <h1 className='dev-title banner-title' ref={spans1}>Développeuse Web Frontend Junior</h1>
+        <h1 className='dev-title banner-title' ref={spans1}>Développeuse Web Junior</h1>
         <h2 className='name banner-title'><span>Louisa </span><span>Ongenyi</span></h2>
         <div className='btns-container'>
           <button className='navBtns b1' onClick={scrollToSites}>Sites en ligne</button>
@@ -86,12 +71,9 @@ function Banner() {
 louisa-ongenyi' target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin" alt='Linkedin' ></i></a></div>
         <div className='icon'><a href='https://github.com/olouisa?tab=repositories' target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github" alt='GitHub'></i></a></div>
 
-        {/* </div> */}
       </div>
 
-      {/* <p className='banner-title'>Bonjour, je suis Louisa, développeuse web front-end junior.<br/> Bienvenue sur mon site portfolio.</p> */}
-
-    </div>
+         </div>
   )
 }
 
